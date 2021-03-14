@@ -129,7 +129,6 @@ header{
   header{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     /*Your code here again.*/  
