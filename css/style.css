@@ -128,7 +128,7 @@ header{
   /*Requirement 10*/
   header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
