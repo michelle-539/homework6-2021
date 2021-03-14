@@ -13,8 +13,9 @@ header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 
   /*Your  code here again.*/
@@ -127,6 +128,7 @@ header{
   /*Requirement 10*/
   header{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
