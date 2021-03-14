@@ -37,7 +37,8 @@ header{
     /*Don't forget to vertically and horizontally 
     align the element*/
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
 }
@@ -141,8 +142,7 @@ header{
   /*Requirement 11*/
   .package {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
     flex-basis: 230px;
 
     /*Your code here again.*/
@@ -179,6 +179,11 @@ header{
 
   /*Requirement 16*/
 
+  .price{
+    display: flex;
+    align-content: flex-end;
+  }
+
   /*Requirement 17*/
   .package{
     border: 2px solid #45ADAD;
@@ -186,8 +191,11 @@ header{
     flex-basis: 200px;  
   }
   /*Requirement 18*/
-  .gallery{
+  #gallery{
     display: none;
   }
 
+  .gallery{
+    display: none;
+  }
 }
