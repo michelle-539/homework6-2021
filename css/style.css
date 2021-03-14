@@ -142,30 +142,52 @@ header{
   .package {
     display: flex;
     flex-direction: row;
-    flex-wrap: norap;
-    flex: 230px;
+    flex-wrap: nowrap;
+    flex-basis: 230px;
 
     /*Your code here again.*/
-  } 
+  }
 }
 
 /*Requirement 12*/
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/ 
 
-@media screen and (prefers-reduced_motion: reduce) {
+@media screen and (prefers-reduced-motion: reduce) {
   #logo{
     animation: none;
-  }
+    }
 }
 @media print { 
 
   /*Requirement 13*/
+  body {
+    background-image: none;
+  }
   /*Requirement 14*/
-  /*Requirement 15*/
-  /*Requirement 16*/
-  /*Requirement 17*/
-  /*Requirement 18*/
- 
-}
+  nav {
+    width: 100%;
+  }
 
+  /*Requirement 15*/
+
+  .nav_links{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+
+  /*Requirement 16*/
+
+  /*Requirement 17*/
+  .package{
+    border: 2px solid #45ADAD;
+    display: flex;
+    flex-basis: 200px;  
+  }
+  /*Requirement 18*/
+  .gallery{
+    display: none;
+  }
+
+}
